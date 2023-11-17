@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easy Web Biginner</title>
+    <script defer src="https://cdn.tailwindcss.com"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+</head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-N19TSW5LP2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-N19TSW5LP2');
+</script>
+
+<body>
+
+    <header>
+
+        <!-- Navbar Dropdown 1 row -->
+        <section>
+            <div class="h-auto w-screen">
+                <!-- NAVBAR -->
+                <nav class="font-inter mx-auto h-auto w-full max-w-[1600px] lg:relative lg:top-0" x-data="{isOpen: false, menuOne:false}">
+
+                    <!-- CONTAINER -->
+                    <div class="flex flex-col px-6 py-6 lg:flex-row lg:items-center lg:justify-between lg:px-10 lg:py-4 xl:px-20">
+                        <!-- MENU CONTENT 1 -->
+                        <div class="mt-14 flex flex-col space-y-8 lg:mt-0 lg:flex lg:flex-row lg:justify-end lg:space-x-3 lg:space-y-0" x-bind:class="isOpen ? 'show' : 'hidden'">
+                       </div>
+                    </div>
+                </nav>
+            </div>
+        </section>
+
+    </header>
+   
+    <main>
+
+        <section>
+            <!-- Container -->
+            <div class="mx-auto w-full max-w-7xl px-5 py-12 md:px-10 md:py-16 lg:py-20">
+              <!-- Component -->
+              <div class="grid gap-12 sm:gap-20 lg:grid-cols-2">
+                <!-- Content -->
+                <div class="flex flex-col items-start gap-2">
+                  <!-- Title -->
+                  <h1 class="mb-6 text-4xl font-bold md:text-6xl lg:mb-8">404 Error</h1>
+                  <p class="text-sm text-[#808080] sm:text-xl">Sorry for the inconvenient.</p>
+                  <!-- Divider -->
+                  <div class="mb-8 mt-8 h-px w-full bg-black"></div>
+                  <div class="mb-6 flex flex-col gap-2 text-sm text-[#808080] sm:text-base lg:mb-8">
+                    <p>
+                      <strong></strong>
+                    </p>
+                    <p>
+                      <strong></strong>
+                    </p>
+                  </div>
+
+                  <!-- Buttons -->
+                  <div class="flex flex-col gap-4 font-semibold sm:flex-row">
+                    <a href="https://en.einfachwebsiteerstellen.de/" class="flex items-center gap-4 rounded-md bg-black px-6 py-3 text-white">
+                        <img src="https://assets.website-files.com/6458c625291a94a195e6cf3a/64b147043fe6ab404e65635e_Envelope.svg" alt="" class="inline-block" />
+                        <p>Back Home</p>
+                      </a>
+                    <a href="mailto:support@einfachwebsiteerstellen.de?subject=Error Happened&body=Error happening, please check." class="flex items-center gap-4 rounded-md bg-black px-6 py-3 text-white">
+                      <img src="https://assets.website-files.com/6458c625291a94a195e6cf3a/64b147043fe6ab404e65635e_Envelope.svg" alt="" class="inline-block" />
+                      <p>E-Mail Me</p>
+                    </a>
+                  </div>
+                </div>
+                <!-- Image -->
+                <img src="images/banner-error.png" alt="The beginner develops his first website.">
+              </div>
+            </div>
+          </section>
+
+    </main>
+
+    <footer>
+
+        <section>
+            <div class="mx-auto my-12 w-full border border-[#E4E4E7] lg:my-20"></div>
+
+                <!-- COPYRIGHT TEXT -->
+                <div>
+                    <p class="font-inter lg: text-center text-sm text-gray-90">© Copyright 2023. All rights reserved.</p>
+                </div>
+
+            </div>
+        </section>
+
+    </footer>
+
+    <script src="LanguageSwitcher.js"></script>
+
+</body>
+</html>
